@@ -3,6 +3,7 @@ used to playing video on SSD1306 for fun (look so bad lmao)
  
  **USE THE `partitions.csv` IF YOU HAVE 16MB OF FLASH**
 
+### Also i have made WiFi version though
 
 # **HOW TO USE CONVERTER:**
 
