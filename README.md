@@ -1,6 +1,7 @@
 ## ESP32 Video player
 used to playing video on SSD1306 for fun (look so bad lmao)
- **USE THE PARTITIONS IF YOU HAVE 16MB OF FLASH**
+ 
+ **USE THE `partitions.csv` IF YOU HAVE 16MB OF FLASH**
 
 
 # **HOW TO USE CONVERTER:**
