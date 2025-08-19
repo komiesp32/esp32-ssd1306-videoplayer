@@ -3,7 +3,7 @@ Welp it used to playing video on SSD1306 for fun (look so bad lmao)
 
 
 
-#**HOW TO USE CONVERTER:**
+# **HOW TO USE CONVERTER:**
 
 
 Convert any video into a binary movie file playable on an SSD1306 OLED with an ESP32-S3.
