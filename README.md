@@ -66,9 +66,9 @@ Default (movie.bin) has:
 | 21     | 11   | Reserved (zeros)                 |
 | 32     | …    | Frame0, Frame1, …                |
 
-# **Each frame is packed in SSD1306 page format (8px vertical per byte).**
+### **Each frame is packed in SSD1306 page format (8px vertical per byte).**
 
-### **--- Notes ---**
+# **--- Notes ---**
 
 **Use header mode unless you really need raw.**
 
