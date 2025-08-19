@@ -4,8 +4,8 @@
 #include <LittleFS.h>
 
 // ---- OLED (SSD1306 128x64, I2C on custom pins) ----
-#define SDA_PIN 8
-#define SCL_PIN 9
+#define SDA_PIN 8  //edit this
+#define SCL_PIN 9 //edit this
 // U8x8 = tile-based API (matches SSD1306 page format)
 U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE, /* clock=*/ SCL_PIN, /* data=*/ SDA_PIN);
 
@@ -48,7 +48,7 @@ void setup() {
   // Init display
   u8x8.begin();
   u8x8.setI2CAddress(0x3C << 1);   // default 0x3C
-  u8x8.setBusClock(3400000L);        // 400kHz I2C for a lil speed
+  u8x8.setBusClock(3400000L);        // 3.4MHz I2C for turbo speed, fix if it too fast for your SSD1306
   u8x8.clear();
 
   // FS
