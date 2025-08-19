@@ -52,7 +52,7 @@ Default (movie.bin) has:
 
 | Offset | Size | Field                            |
 | ------ | ---- | -------------------------------- |
-| 0      | 8    | Magic = `"SSD1306V1"`            |
+| 0      | 8    | Magic = `SSD1306V1`            |
 | 8      | 2    | Width                            |
 | 10     | 2    | Height (must be multiple of 8)   |
 | 12     | 4    | FPS × 1000 (e.g. 15000 = 15 fps) |
