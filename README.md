@@ -70,10 +70,10 @@ Default (movie.bin) has:
 
 ### **--- Notes ---**
 
-**Use header mode unless you really need raw.
+**Use header mode unless you really need raw.**
 
-SSD1306 height must be divisible by 8 (64 works).
+**SSD1306 height must be divisible by 8 (64 works).**
 
-ESP32-S3 player code already understands this format → just drop movie.bin into LittleFS.
+**ESP32-S3 player code already understands this format → just drop movie.bin into LittleFS.**
 
-Previews help check dithering quality before uploading.**
+**Previews help check dithering quality before uploading.**
